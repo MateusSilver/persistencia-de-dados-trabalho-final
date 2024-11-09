@@ -1,0 +1,20 @@
+# Compiled source #
+target/
+build/
+
+# Eclipse IDE #
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA #
+.idea/
+*.iml
+
+# Maven and Gradle #
+*.log
+*.class
+*.jar
+*.war
+*.ear
+.DS_Store
