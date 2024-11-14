@@ -1,7 +1,7 @@
 CREATE DATABASE trabalho_final;
 
 CREATE TABLE vacinas (
-    id INT PRIMARY KEY,
+    id INT PRIMARY KEY AUTO_INCREMENT,
     titulo VARCHAR(60),
     descricao VARCHAR(200),
     doses INT,
@@ -9,8 +9,9 @@ CREATE TABLE vacinas (
     intervalo INT
 );
 
+
 CREATE TABLE usuarios (
-    id INT PRIMARY KEY,
+    id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(60),
     data_nascimento DATE,
     sexo VARCHAR(1),
@@ -23,7 +24,7 @@ CREATE TABLE usuarios (
 
 
 CREATE TABLE agendas (
-    id INT PRIMARY KEY,
+    id INT PRIMARY KEY AUTO_INCREMENT,
     data DATE,
     hora TIME,
     situacao VARCHAR(10),
@@ -36,15 +37,22 @@ CREATE TABLE agendas (
 );
 
 CREATE TABLE alergias (
-    id INT PRIMARY KEY,
+    id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(40)
 );
 
 CREATE TABLE usuarios_alergias (
+	id INT PRIMARY KEY AUTO_INCREMENT,
     id_usuario INT,
     id_alergia INT,
     FOREIGN KEY (id_usuario) REFERENCES usuarios(id),
     FOREIGN KEY (id_alergia) REFERENCES alergias(id)
 );
 
-
+/*
+DROP TABLE usuarios_alergias;
+drop table alergias;
+drop table agendas;
+drop table vacinas;
+drop table usuarios;
+*/
