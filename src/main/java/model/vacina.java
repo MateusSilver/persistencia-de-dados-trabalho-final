@@ -1,11 +1,29 @@
+package model;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="vacinas")
 public class vacina {
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
 	private String titulo;
 	private String descricao;
 	private int doses;
 	private int periodicidade;
 	private int intervalo;
+	
+	@OneToMany
+	private List<agenda> Agendamentos = new ArrayList<>();
 
 	public vacina() {}
 
