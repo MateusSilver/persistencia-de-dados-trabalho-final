@@ -33,7 +33,7 @@ public class usuario {
 	private List<agenda> agendamentos = new ArrayList<>();
 	
 	@ManyToMany (mappedBy= "usuarios")
-	List<alergia> alergias = new ArrayList<>();
+	private List<alergia> alergias = new ArrayList<>();
 	
 	
 	public usuario() {}
