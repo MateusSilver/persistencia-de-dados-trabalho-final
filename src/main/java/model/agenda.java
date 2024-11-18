@@ -23,10 +23,10 @@ public class agenda {
 	private String observacoes;
 	
 	@ManyToOne
-	private usuario usuario_id;
+	private usuario usuario;
 	
 	@ManyToOne
-	private vacina vacina_id;
+	private vacina vacina;
 	
 	public agenda() {
 		
@@ -81,19 +81,19 @@ public class agenda {
 	}
 
 	public usuario getUsuario_id() {
-		return usuario_id;
+		return usuario;
 	}
 
-	public void setUsuario_id(usuario usuario_id) {
-		this.usuario_id = usuario_id;
+	public void setUsuario_id(usuario usuario) {
+		this.usuario = usuario;
 	}
 
 	public vacina getVacina_id() {
-		return vacina_id;
+		return vacina;
 	}
 
-	public void setVacina_id(vacina vacina_id) {
-		this.vacina_id = vacina_id;
+	public void setVacina_id(vacina vacina) {
+		this.vacina = vacina;
 	}
 	
 }
