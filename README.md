@@ -51,7 +51,20 @@ No navegador acesse: `http://localhost:8080/persistencia-de-dados-trabalho-final
 
 ## Grupo de desenvolvimento:
 
-| aluno              | matricula | github                                          |
-| ------------------ | --------- | ----------------------------------------------- |
-| Mateus da Silveira | 201905543 | [Mateussilver](https://github.com/Mateussilver) |
-|                    |           |                                                 |
+| aluno                        | matricula | github                                          |
+| ---------------------------- | --------- | ----------------------------------------------- |
+| Mateus da Silveira           | 201905543 | [Mateussilver](https://github.com/Mateussilver) |
+| Luiz Henrique Pires Carvalho | 202105045 |                                                 |
+
+## Camada Model
+
+- Uso de um modelo de classes de dados usando [Hibernate](https://hibernate.org/)
+
+### Classes usadas
+
+- Agenda
+- Vacina
+- Alergia
+- Usuario
+
+Mais informações acerca das classes, tabelas do banco de dados e entidades em: `db_docs/script-ddl.sql` e `db_docs/Schema ER.jpg`.
