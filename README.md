@@ -67,4 +67,4 @@ No navegador acesse: `http://localhost:8080/persistencia-de-dados-trabalho-final
 - Alergia
 - Usuario
 
-Mais informações acerca das classes, tabelas do banco de dados e entidades em: `db_docs/script-ddl.sql` e `db_docs/Schema ER.jpg`.
+Mais informações acerca das classes, tabelas do banco de dados e entidades em: `/src/main/java/model`,`db_docs/script-ddl.sql` e `db_docs/Schema ER.jpg`.
