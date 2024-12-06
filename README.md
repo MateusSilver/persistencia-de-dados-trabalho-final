@@ -54,6 +54,7 @@ No navegador acesse: `http://localhost:8080/persistencia-de-dados-trabalho-final
 | aluno                        | matricula | github                                          |
 | ---------------------------- | --------- | ----------------------------------------------- |
 | Mateus da Silveira           | 201905543 | [Mateussilver](https://github.com/Mateussilver) |
+| Gabriel Mesquita             | 202105032 | [Gabriel-Mesq](https://github.com/Gabriel-Mesq) |
 | Luiz Henrique Pires Carvalho | 202105045 |                                                 |
 
 ## Camada Model
