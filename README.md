@@ -2,6 +2,10 @@
 
 Este projeto é uma aplicação Java Web desenvolvida como parte das atividades acadêmicas. A aplicação utiliza Java EE com uma estrutura moderna de pastas e práticas recomendadas para construção e manutenção de aplicativos dinâmicos baseados em web.
 
+## Drive com os vídeos de apresentação
+
+https://drive.google.com/drive/folders/1e3ogi42L3TZikMBveBD9T7N2LWx3f8Qq?usp=sharing
+
 ## Estrutura do Projeto
 
 A estrutura principal do projeto segue a convenção de um projeto Java Web moderno:
