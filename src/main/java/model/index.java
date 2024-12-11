@@ -6,7 +6,7 @@ class index {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.err.println("AGENDA DE VACINAÇÃO\n\n1. Exibir todas as vacinas\n2. Cadastrar uma nova vacina\n3. Sair");
+        System.out.println("AGENDA DE VACINAÇÃO\n\n1. Exibir todas as vacinas\n2. Cadastrar uma nova vacina\n3. Sair");
 
         int entrada = sc.nextInt();
         sc.nextLine();
