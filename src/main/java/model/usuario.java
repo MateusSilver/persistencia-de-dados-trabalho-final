@@ -32,8 +32,8 @@ public class usuario {
 	@OneToMany (mappedBy="usuarios")
 	private List<agenda> agendamentos = new ArrayList<>();
 	
-	//@ManyToMany (mappedBy= "usuarios")
-	//List<alergia> alergias = new ArrayList<>();
+	@ManyToMany (mappedBy= "usuarios")
+	private List<alergia> alergias = new ArrayList<>();
 	
 	
 	public usuario() {}
